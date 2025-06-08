@@ -1,23 +1,27 @@
-A C programming exercise generate normally distributed random numbers using the Box-Muller transform.
-Built with modular files (main.c, random.c, random.h) and compiled using CMake.
+# Random Normal Generator
 
+A C programming exercise to generate normally distributed random numbers using the **Box-Muller transform**.
 
-snk@fedora:~/random$ cd build/
-snk@fedora:~/random/build$ cmake ..
--- Configuring done (0.1s)
--- Generating done (0.0s)
--- Build files have been written to: /home/snk/random/build
-snk@fedora:~/random/build$ make 
-[100%] Built target main
-snk@fedora:~/random/build$ ls
-CMakeCache.txt  CMakeFiles  cmake_install.cmake  main  Makefile
-snk@fedora:~/random/build$ ./main
+## 📁 Structure
 
+- `main.c` – Runs the program and prints random normal values
+- `random.c` – Implements the Box-Muller algorithm
+- `random.h` – Header for the random number generation function
+- `CMakeLists.txt` – Build configuration using CMake
+  
+
+## 🛠️ Build Instructions
+
+```bash``
+mkdir build
+cd build
+cmake ..
+make
+./main
+## Sample Output
 Random Normal: -1.301821
-Random Normal: 0.685157
-Random Normal: 0.397405
-Random Normal: 0.348938
+Random Normal:  0.685157
+Random Normal:  0.397405
+Random Normal:  0.348938
 Random Normal: -0.280673
-
-snk@fedora:~/random/build$ 
 
