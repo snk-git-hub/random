@@ -13,11 +13,12 @@ A C programming exercise to generate normally distributed random numbers using t
 ## 🛠Build Instructions
 
 ```bash```
-mkdir build
+```mkdir build
 cd build
 cmake ..
 make
-./main
+./main```
+
 ## Sample Output
 Random Normal: -1.301821
 Random Normal:  0.685157
