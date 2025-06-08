@@ -1,0 +1,15 @@
+build/
+
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+main
+*.o
+*.o.d
+
+*.swp
+*.tmp
+*.log
+*.out
