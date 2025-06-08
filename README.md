@@ -18,11 +18,12 @@ cd build
 cmake ..
 make
 ./main```
-
+```
 ## Sample Output
+```
 Random Normal: -1.301821
 Random Normal:  0.685157
 Random Normal:  0.397405
 Random Normal:  0.348938
-Random Normal: -0.280673
+Random Normal: -0.280673```
 
