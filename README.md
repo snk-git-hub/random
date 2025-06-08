@@ -2,7 +2,7 @@
 
 A C programming exercise to generate normally distributed random numbers using the **Box-Muller transform**.
 
-## 📁 Structure
+##  Structure
 
 - `main.c` – Runs the program and prints random normal values
 - `random.c` – Implements the Box-Muller algorithm
@@ -10,9 +10,9 @@ A C programming exercise to generate normally distributed random numbers using t
 - `CMakeLists.txt` – Build configuration using CMake
   
 
-## 🛠️ Build Instructions
+## 🛠️Build Instructions
 
-```bash``
+```bash```
 mkdir build
 cd build
 cmake ..
